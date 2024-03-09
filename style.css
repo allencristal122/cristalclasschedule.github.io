@@ -1,0 +1,111 @@
+/* Name: Vince Allen D. Cristal */
+/* Section: BSINFO - 2B */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+p {
+    font-size: 16px;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto; 
+    border: 2px solid #000;
+    color: #000;
+}
+
+th,
+td {
+    padding: 10px;
+    color: #000; 
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid #000; 
+}
+
+td {
+    border: 2px solid #000;
+    line-height: 25px;
+}
+
+td:first-child {
+    width: 10%;
+    background-color: #444444;
+    color: #fff;
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+    width: 15%;
+}
+
+.PE {
+    color: #fff;
+    background-color: green;
+}
+
+.GEC108 {
+    color: #fff;
+    background-color: #cc5500;
+}
+
+.ITEL203 {
+    background-color: #9400d3;
+    color: #fff;
+}
+
+.ITEP204 {
+    background-color: #8b0000;
+    color: #fff;
+}
+
+.ITEP205 {
+    background-color: #448ee4;
+    color: #fff;
+}
+
+.ITEP206 {
+    background-color: #00008b;
+    color: #fff;
+}
+
+.ITEP207 {
+    background-color: #f6be00;
+    color: #fff;
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    table {
+        width: 85%;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+        color: #000 !important;
+    }
+
+    td:nth-child(1):not(:first-child) {
+        page-break-after: always;
+    }
+}
